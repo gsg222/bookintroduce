@@ -1,0 +1,49 @@
+<style>
+body{
+  margin: 0px;
+}
+  a{
+    color: black;
+}
+
+h1 {
+    border-bottom: gray solid 2px;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    margin: 0px;
+}
+
+ol{
+  border-right:2px solid gray;
+  width: 100px;
+  margin: 0px;
+  padding: 20px;
+}
+#intro{
+  display: grid;
+  grid-template-columns: 100px 1fr;
+}
+#hello{
+  padding-left: 70px;
+  padding-top: 23px;
+
+}
+ol{
+  padding-left: 30px;
+}
+@media(max-width:800px){
+  #intro{
+    display: block;
+  }
+  #hello{
+    padding: 10px;
+  }
+  ol{
+    border-right: none;
+  }
+  h1{
+    border-bottom: none;
+  }
+}
+</style>
